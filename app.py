@@ -14,7 +14,7 @@ model = load_model()
 # Load the dataset (for feature names)
 @st.cache_data
 def load_data():
-    df = pd.read_csv("your_dataset.csv")  # Replace with your dataset path
+    df = pd.read_csv("spam.csv")  # Replace with your dataset path
     return df
 
 df = load_data()
